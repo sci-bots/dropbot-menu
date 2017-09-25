@@ -1,5 +1,5 @@
 {% if GIT_DESCRIBE_NUMBER > '0' %}
-{% set GIT_VERSION = GIT_DESCRIBE_TAG[1:] + '.' + GIT_DESCRIBE_NUMBER %}
+{% set GIT_VERSION = GIT_DESCRIBE_TAG[1:] + '.post' + GIT_DESCRIBE_NUMBER %}
 {% else %}
 {% set GIT_VERSION = GIT_DESCRIBE_TAG[1:] %}
 {% endif %}

@@ -3,8 +3,9 @@
     "menu_items":
         [
             {
-                "name": "Documentation",
-                "webbrowser": "https://github.com/sci-bots/microdrop.dropbot-plugin/wiki"
+                "name": "DropBot Documentation",
+                "webbrowser": "https://github.com/sci-bots/microdrop.dropbot-plugin/wiki",
+                "icon": "${MENU_DIR}/dropbot-info-icon.ico"
             },
             {
                 "script": "${PYTHON_SCRIPTS}/dropbot-upload.exe",
