@@ -4,14 +4,15 @@
         [
             {
                 "name": "Documentation",
-                "webbrowser": "https://github.com/sci-bots/microdrop.dropbot-plugin/wiki",
+                "webbrowser": "https://github.com/sci-bots/microdrop.dropbot-plugin/wiki"
             },
             {
                 "script": "${PYTHON_SCRIPTS}/dropbot-upload.exe",
                 "name": "Flash DropBot firmware",
                 "workdir": "${PREFIX}",
                 "icon": "${MENU_DIR}/firmware-upload-icon.ico",
-                "desktop": true
+                "desktop": true,
+                "quicklaunch": false
             }
         ]
 }
